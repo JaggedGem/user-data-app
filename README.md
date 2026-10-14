@@ -52,6 +52,16 @@ From the source directory you can run:
 dotnet run --project UserDataApp -- --test-layout
 ```
 
+To start the form at a specific outer window size, provide the width and height
+in pixels:
+
+```powershell
+dotnet run --project UserDataApp -- --size 1200 700
+```
+
+`--window-size` is also accepted as an alias. Both dimensions must be at least
+the form's minimum size of 800 × 500.
+
 ## Verification status
 
 The release build and self-contained Windows publish were verified in the Linux
