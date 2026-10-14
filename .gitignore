@@ -1,0 +1,12 @@
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Local IDE settings
+.vs/
+.idea/
+**/.idea/
+*.csproj.user
+
+# Generated layout test report
+layout-test-results.txt
